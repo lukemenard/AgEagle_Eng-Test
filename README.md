@@ -8,6 +8,7 @@ We would like you to build an application that can meet the following functional
 Notes:
 
 * Do this test in what ever language and way you feel comfortable in. Ideally the UI portion is a webapp of some form
+* Use this test as a showcase of good development practices
 * Please include instructions on how to run your application as a part of submitting
 
 Helpful Hints:
