@@ -1,9 +1,15 @@
 # Eng-Test
 
-We would like you to build an application that can meet the following functionality:
+Thank you for participating in the ageagle engineering test. We would like you to build an application that has the following features:
 
-* Displays a map of the world, which a user can move and zoom 
-* When a user clicks on a given location, the webapp should display the current weather data for that location 
+API: 
+* Create a REST api that returns a number of random lat and long points with weather data. 
+* The consuymer of the api should be able to specifty the number of returned points
+* Weather data can be pulled via an api from [Open Weather Map](https://openweathermap.org/current) 
+* Random numbers should be retreived from an outside source ie: [Random.org api](https://www.random.org/clients/http/)
+
+Webapp: 
+* Create a webapp that consumes the api that you created and displays the data.
 
 Notes:
 
@@ -14,8 +20,9 @@ Notes:
 Helpful Hints:
 
 * [Mapbox](https://docs.mapbox.com/mapbox-gl-js/overview/) is a great tool to use  for rendering maps
-* Open source weather data can be found at [Open Weather Map](https://openweathermap.org/current)
+* Dont forget there are only certian valid numbers for a lat / long 
 
 Submitting:
 
 * Email careers@ageagle.com with either a zip of your project, or a link to a public git repositry
+* A git repo is the prefferred method
