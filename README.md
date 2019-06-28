@@ -5,7 +5,7 @@ Thank you for participating in the ageagle engineering test. We would like you t
 API: 
 
 * Create a REST api that returns a number of random lat and long points with weather data. 
-	* The consuymer of the api should be able to specifty the number of returned points
+	* The consumer of the api should be able to specifty the number of returned points
 	* Weather data can be pulled via an api from [Open Weather Map](https://openweathermap.org/current) 
 	* Random numbers should be retreived from an outside source ie: [Random.org api](https://www.random.org/clients/http/)
 
