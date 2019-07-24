@@ -28,4 +28,3 @@ Helpful Hints:
 Submitting:
 
 * Email careers@ageagle.com with a link to a public git repositry
-* A git repo is the prefferred method
