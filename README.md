@@ -27,5 +27,5 @@ Helpful Hints:
 
 Submitting:
 
-* Email careers@ageagle.com with either a zip of your project, or a link to a public git repositry
+* Email careers@ageagle.com with a link to a public git repositry
 * A git repo is the prefferred method
