@@ -1,0 +1,37 @@
+html body{
+    display: flex;
+    flex-flow: column;
+    height: 100% !important;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-evenly !important;
+  }
+
+  input {
+      margin: 0px 20px 0px 20px;
+  }
+
+  h1 {
+    padding: 10px;
+    color: orange;
+  }
+  
+  .map-container {
+    position:relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .map {
+    position: absolute;
+    /* height: 100%; */
+    height: 650px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+  }

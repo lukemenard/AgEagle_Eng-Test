@@ -1,0 +1,61 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lon: 1.5
+  lat: 1.5
+  weather_id: 1
+  weather_main: MyString
+  weather_description: MyString
+  weather_icon: MyString
+  base: MyString
+  main_temp: 1.5
+  main_feels_like: 1.5
+  main_temp_min: 1.5
+  main_temp_max: 1.5
+  main_pressure: 1
+  main_humidity: MyString
+  integer: MyString
+  wind_speed: 1.5
+  wind_deg: 1.5
+  clouds_all: 1
+  dt: 2020-02-25 13:18:13
+  sys_type: 1
+  sys_id: 1
+  sys_message: 1.5
+  sys_country: MyString
+  sys_sunrise: 2020-02-25 13:18:13
+  sys_sunset: 2020-02-25 13:18:13
+  timezone: 1
+  id: 1
+  name: MyString
+  cod: 1
+
+two:
+  lon: 1.5
+  lat: 1.5
+  weather_id: 1
+  weather_main: MyString
+  weather_description: MyString
+  weather_icon: MyString
+  base: MyString
+  main_temp: 1.5
+  main_feels_like: 1.5
+  main_temp_min: 1.5
+  main_temp_max: 1.5
+  main_pressure: 1
+  main_humidity: MyString
+  integer: MyString
+  wind_speed: 1.5
+  wind_deg: 1.5
+  clouds_all: 1
+  dt: 2020-02-25 13:18:13
+  sys_type: 1
+  sys_id: 1
+  sys_message: 1.5
+  sys_country: MyString
+  sys_sunrise: 2020-02-25 13:18:13
+  sys_sunset: 2020-02-25 13:18:13
+  timezone: 1
+  id: 1
+  name: MyString
+  cod: 1
