@@ -26,7 +26,7 @@ class LocationsController < ApplicationController
       clouds_all: params[:clouds_all],
       dt: params[:dt],
       sys_type: params[:sys_type],
-      syscall: params[:sys_id],
+      sys_id: params[:sys_id],
       sys_message: params[:sys_message],
       sys_country: params[:sys_country],
       sys_sunrise: params[:sys_sunrise],
@@ -36,7 +36,20 @@ class LocationsController < ApplicationController
       name: params[:name],
       cod: params[:cod]
     )
+    render json: location, except: [:updated_at, :created_at]
   end
+
+  def show
+    location = Location.find_by(id: params[:id])
+    render json: location, except: [:updated_at, :created_at]
+  end
+
+  def destroy
+    location = Location.find_by(id: params[:id])
+    location.delete
+    render json: location, except: [:updated_at, :created_at]
+  end
+
 
   private
 
