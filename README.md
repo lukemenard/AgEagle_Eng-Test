@@ -1,3 +1,18 @@
+### Using this Repository
+1. Install [ruby](https://www.ruby-lang.org/en/documentation/installation/). 
+   - See if Ruby is already installed locally by running `Ruby -v` in your command line. If it is installed, you will see a version number.
+
+2. Navigate to 'AgEagle-Backend' within the directory in your terminal, and run each of the following commands to create and populate a database with current wildfire point data and run a backend rails server:
+   - `bundle`
+   - `rails db:create`
+   - `rails db:migrate`
+   - `rails s`
+ 
+ 3. In a new terminal window, navigate to 'AgEagle-Frontend' in the directory and run the followiing commands to install and deploy lite-server locally:
+    - `npm install -g lite-server`
+    - `lite-server`
+
+
 # Eng-Test
 
 Thank you for participating in the ageagle engineering test. We would like you to build an application that has the following features:
