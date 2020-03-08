@@ -222,39 +222,6 @@ function initMap() {
             ]
       })
 
-    let drawingManager = new google.maps.drawing.DrawingManager({
-      drawingMode: null,
-      drawingControl: true,
-      drawingControlOptions: {
-        position: google.maps.ControlPosition.TOP_CENTER,
-      },
-      circleOptions: {
-        fillColor: '#ff5733',
-        fillOpacity: 0.3,
-        strokeWeight: 1,
-        clickable: true,
-        editable: true,
-        zIndex: 1,
-      },
-      polygonOptions: {
-        fillColor: '#ff5733',
-        fillOpacity: 0.3,
-        strokeWeight: 1,
-        clickable: true,
-        editable: true,
-        zIndex: 1,
-      },
-      rectangleOptions: {
-        fillColor: '#ff5733',
-        fillOpacity: 0.3,
-        strokeWeight: 1,
-        clickable: true,
-        editable: true,
-        zIndex: 1,
-      }
-    });
-    drawingManager.setMap(map)
-
     let currentLocation = new google.maps.InfoWindow;
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
