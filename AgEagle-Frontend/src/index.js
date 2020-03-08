@@ -13,13 +13,11 @@ const retrieveUserInput = async (event) => {
     let lons = await fetchRandomLons(userNumInput).then(
       randomLons => {return randomLons}
     )
-
     let weatherData = await createLocations(lats, lons).then(
       data => {return data}
     )
-
     await weatherData.forEach(data => parseWeatherData(data))
-    location.reload()
+    // location.reload()
 }
 
 const numConfig = (number, min, max) => {
@@ -79,6 +77,7 @@ const fetchRandomLons = async (number) => {
 const postWeatherData = async (lon, lat, weather_id, weather_main, weather_description, weather_icon, base, main_temp, main_feels_like, main_temp_min, main_temp_max, main_pressure, main_humidity, visibility, wind_speed, wind_deg, clouds_all, dt, sys_type, sys_id, sys_message, sys_country, sys_sunrise, sys_sunset, timezone, api_id, name, cod) => {
   let response = await fetch(LOCATIONS_URL, weatherConfig(lon, lat, weather_id, weather_main, weather_description, weather_icon, base, main_temp, main_feels_like, main_temp_min, main_temp_max, main_pressure, main_humidity, visibility, wind_speed, wind_deg, clouds_all, dt, sys_type, sys_id, sys_message, sys_country, sys_sunrise, sys_sunset, timezone, api_id, name, cod))
   let data = await response.json()
+  console.log(data)
   return data
 }
 
