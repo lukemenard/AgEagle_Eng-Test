@@ -17,7 +17,7 @@ const retrieveUserInput = async (event) => {
       data => {return data}
     )
     await weatherData.forEach(data => parseWeatherData(data))
-    // location.reload()
+    location.reload()
 }
 
 const numConfig = (number, min, max) => {
